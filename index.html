@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+	<div class="container">
+		<button id="logout" onclick="logout();"class ="glyphicon glyphicon-log-out btn btn-danger">LOGOUT</button>
+<center>
+	<h1 class="header">	
+		Kwitter	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+<h3 id ="user name" class="color_white"></h3>
+	<div class="form-group input_div_room_page">
+	
+		
+		  <label >#ADD ROOM:</label>
+<input type="text" id="room_name" class="form-control" placeholder="#Room_Name">
+		</div>
+		<button onclick="addRoom();"class="btn btn-success"></button> in</button>
+	    <div id="output"></div>
+	</center>
+	</div>
+<srcipt src = "kwitter_room.js"></srcipt>
+</body>
+</html>
